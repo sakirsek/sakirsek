@@ -8,7 +8,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@0252603d89e89b96f0413c3cb6b0649b64387ba9  # master, 2026-10-16
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: sakirsek
